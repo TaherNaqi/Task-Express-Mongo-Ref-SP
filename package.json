@@ -2,11 +2,13 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "mongoose": "^6.1.4",
+    "mongoose": "^6.1.10",
     "mongoose-slug-plugin": "^2.1.0",
-    "multer": "^1.4.4"
+    "multer": "^1.4.4",
+    "plugin": "^0.3.3",
+    "slug": "^5.2.0"
   },
   "scripts": {
-    "start": "node app.js"
+    "start": "nodemon app.js"
   }
 }
